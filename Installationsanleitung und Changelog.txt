@@ -1,0 +1,76 @@
+Installationsanleitung
+
+
+I. Betriebssystem Windows
+
+1.  "Node.js" vollständig (alle Häkchen setzen) installieren (Download hier: "https://nodejs.org/").
+2.  Die Datei "Notenverwaltung.zip" herunterladen.
+3.  Die Datei "Notenverwaltung.zip" entpacken (z.B. mit dem Programm "7-Zip").
+4.  Im Order "Notenverwaltung" auf die Datei "Start.bat" doppelklicken.
+5.  Webbrowser öffnen und die URL "http://localhost:8080/" eingeben.
+
+
+II. Betriebssystem iPadOS
+
+1.  Die App "Unzip:Datei zip,rar,7z öffnen" aus dem App Store herunterladen und installieren.
+2.  Die App "CodeSandbox" aus dem App Store herunterladen und installieren.
+3.  Die App "CodeSandbox" öffnen und mit Apple-Account verknüpfen.
+4.  Die Datei "Notenverwaltung.zip" herunterladen.
+5.  Die App "Dateien" öffnen, dann die Datei "Notenverwaltung.zip" mit der App "Unzip" teilen.
+6.  Die App "Unzip" öffnen, dann die Datei "Notenverwaltung.zip" entpacken und auf Abschluss warten.
+7.  In der App "CodeSandbox" links oben auf "Local Sandboxes" klicken, dann rechts oben auf "+ New Sandbox".
+8.  Klicken: "Open directory" -> "Auf meinem iPad" -> "Unzip" -> "Notenverwaltung" -> "Notenverwaltung" -> "Öffnen"
+9.  Unten auf "Install dependencies" klicken und auf Abschluss warten.
+10. Unten in den zweiten Reiter wechseln (nach links wischen) und "start: webpack serve" anklicken und auf Abschluss warten.
+11. "Safari" öffnen und die URL "http://localhost:8080/" eingeben.
+12. Falls die Website nicht sofort lädt, zurück zu "CodeSandbox" wechseln (dort nichts tun) und anschließend wieder zu "Safari".
+
+
+III. Andere Betriebssysteme
+
+Die digitale Notenverwaltung verwendet HTML, CSS und JavaScript und ist somit betriebssystemunabhängig.
+Die Installation auf einem iPad ist nur deshalb einmalig ein wenig aufwändiger, da man iPadOS-Restriktionen umgehen muss.
+Unter allen anderen Betriebssystemen sollte die Installation daher ähnlich simpel wie unter Windows sein.
+
+
+
+Changelog
+
+Version 1.0.4 (15.01.2023)
+- Neuer Button "Clipboard laden" im Hauptmenü. Dadurch werden Daten aus der Zwischenablage geladen.
+- Danke an den Schüler Niklas Pütz, der mir gezeigt hat, wie das geht.
+- Firefox unterstützt diese Funktion leider nicht nativ, da man dafür eine Browser-Erweiterung benötigt.
+- Installationsanleitung aktualisiert.
+
+Version 1.0.3 (05.01.2023)
+- Neue Features werden beim Start und beim Laden hinzugefügt, ohne vorhandene Daten zu verändern.
+- Beim Datei-Laden werden die Features hingegen nicht automatisch hinzugefügt. Daher bitte neue Datei speichern! (Reihenfolge: Neues Passwort eingeben -> Alte Datei "myData.json" in Ordner "data" kopieren -> Start.bat/CodeSandbox ausführen -> Website aktualisieren -> Datei laden -> Speichern -> Laden -> Datei speichern)
+- Neuer Button "Inhalte speichern" im Hauptmenü. Dabei werden keinerlei Schülerdaten verwendet.
+- Den dadurch erzeugten String könnt ihr Schülern zur Verfügung stellen, damit diese Unterrichtsinhalte nachschlagen.
+- Beim Datei-Speichern und Inhalte-Speichern wird der zu speichernde Inhalt nun automatisch in die Zwischenablage kopiert.
+- Kursprotokoll implementiert, welches jeweils Datum, Stundenthema, Stundeninhalte und Hausaufgabe aller Stunden des gewählten Quartals auflistet.
+- Zu erreichen über neuen Reiter "Kursprotokoll" neben dem Button "Kursmappe" in der Kursplan-Übersicht.
+- Es werden nun Datum, Stundenthema, Stundeninhalte und Hausaufgabe in einem gemeinsamen Fenster eingegeben.
+- Zahlreiche Einstellungen zur Notenfindung können nun schuljahresweise oder quartalsweise gewählt werden.
+- Button dazu im Menü zu den Einstellungen jedes Kurses.
+- Neue Kurse laden automatisch aktualisierte Daten beim Start und beim Laden.
+- Daher entsprechender Button aus dem Hauptmenü entfernt.
+- Ergebnisspiegel wird automatisch erstellt, wenn als Unterrichtsthema "Klausur Nr. X ..." eingegeben wird.
+- Kleinere bug fixes im Zusammenhang mit dem Ergebnisspiegel von Klassenarbeiten in der Sekundarstufe I.
+- Installationsanleitung aktualisiert.
+
+Version 1.0.2 (18.09.2022)
+- Kleinere bug fixes im Zusammenhang mit zwei Räumen pro Kurs.
+
+Version 1.0.1 (26.07.2022)
+- Neue Features werden beim Start und beim Laden hinzugefügt, ohne vorhandene Daten zu verändern.
+- Beim Datei-Laden werden die Features hingegen nicht automatisch hinzugefügt. Daher bitte neue Datei speichern! (Reihenfolge: Neues Passwort eingeben -> Alte Datei "myData.json" in Ordner "data" kopieren -> Start.bat/CodeSandbox ausführen -> Website aktualisieren -> Datei laden -> Speichern -> Laden -> Datei speichern)
+- Passwort kann vom Hauptmenü aus geändert werden.
+- Zwei verschiedene Sitzordnungen pro Kurs sind nun möglich (Buttons in den Menüs Unterricht und Sitzplan).
+- Möglichkeit hinzugefügt, Freidefizite im Menü Einstellungen einzugeben (jeder Schüler startet dann pro Quartal mit entsprechend vielen Strichen).
+- Unterrichtsstunden können nun gelöscht werden (dazu im Menü Kursplan auf das zu löschende Datum klicken und 000 eingeben).
+- Unterrichtsstunden können nun verschoben werden (dazu im Menü Kursplan auf das zu verschiebende Datum klicken und 000X eingeben, damit dieser Eintrag auf Position X verschoben wird).
+- Gespeicherte Sitzordnungen können nun gelöscht werden (dazu im Menü Sitzplan die zu löschende Sitzordnung auswählen und daneben 000 eingeben).
+- Einige kleinere Designänderungen vorgenommen.
+- Installationsanleitung für iPadOS an CodeSandbox (ehemals Play.js) angepasst.
+- Internet-Variante inklusive Dokumentation erstellt.

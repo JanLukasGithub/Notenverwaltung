@@ -1,0 +1,7 @@
+tr.grauerHintergrundFehlstunden:is(:nth-of-type(9), :nth-of-type(11), :nth-of-type(14), :nth-of-type(16), :nth-of-type(18), :nth-of-type(21), :nth-of-type(23), :nth-of-type(26), :nth-of-type(28), :nth-of-type(30), :nth-of-type(33), :nth-of-type(35), :nth-of-type(38), :nth-of-type(40), :nth-of-type(42), :nth-of-type(45), :nth-of-type(47), :nth-of-type(50), :nth-of-type(52), :nth-of-type(54), :nth-of-type(57), :nth-of-type(59), :nth-of-type(62), :nth-of-type(64), :nth-of-type(66)) {
+    background-color: lightgray;
+}
+
+tr.grauerHintergrundNoten:is(:nth-of-type(4), :nth-of-type(6), :nth-of-type(9), :nth-of-type(11), :nth-of-type(13), :nth-of-type(16), :nth-of-type(18), :nth-of-type(21), :nth-of-type(23), :nth-of-type(25), :nth-of-type(28), :nth-of-type(30), :nth-of-type(33), :nth-of-type(35), :nth-of-type(37), :nth-of-type(40), :nth-of-type(42), :nth-of-type(45), :nth-of-type(47), :nth-of-type(49), :nth-of-type(52), :nth-of-type(54), :nth-of-type(57), :nth-of-type(59), :nth-of-type(61)) {
+    background-color: lightgray;
+}

@@ -1,0 +1,3 @@
+tr.grauerHintergrundKursprotokoll:is(:nth-of-type(2), :nth-of-type(4), :nth-of-type(6), :nth-of-type(8), :nth-of-type(10), :nth-of-type(12), :nth-of-type(14), :nth-of-type(16), :nth-of-type(18), :nth-of-type(20), :nth-of-type(22), :nth-of-type(24), :nth-of-type(26), :nth-of-type(28), :nth-of-type(30), :nth-of-type(32), :nth-of-type(34), :nth-of-type(36), :nth-of-type(38), :nth-of-type(40), :nth-of-type(42), :nth-of-type(44), :nth-of-type(46), :nth-of-type(48), :nth-of-type(50)) {
+    background-color: lightgray;
+}
