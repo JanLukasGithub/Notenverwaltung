@@ -5,8 +5,9 @@
   "description": "Notenverwaltung",
   "main": "src/app.js",
   "scripts": {
-    "predeploy": "npm run compile",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "compile": "webpack",
     "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
