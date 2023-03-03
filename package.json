@@ -1,9 +1,12 @@
 {
+  "homepage": "http://Bushfeind.github.io/Notenverwaltung",
   "name": "notenverwaltung",
   "version": "1.0.4",
   "description": "Notenverwaltung",
   "main": "src/app.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "compile": "webpack",
     "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +24,7 @@
     "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.3.2",
     "style-loader": "^3.0.0",
     "webpack": "^5.42.1",
