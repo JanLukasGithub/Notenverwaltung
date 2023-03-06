@@ -26,7 +26,14 @@ II. Betriebssystem iPadOS
 12. Falls die Website nicht sofort lädt, zurück zu "CodeSandbox" wechseln (dort nichts tun) und anschließend wieder zu "Safari".
 
 
-III. Andere Betriebssysteme
+III. Debian/Ubuntu Linux
+1. Die Datei "Notenverwaltung.zip" herunterladen.
+2. Die Datei "Notenverwaltung.zip" entpacken.
+3. Die Datei "Start.sh" in einer Konsole ausführen (z.B. Rechtsklick -> "In Konsole ausführen").
+4. Webbrowser öffnen und die URL "http://localhost:8080/" eingeben.
+
+
+IV. Andere Betriebssysteme
 
 Die digitale Notenverwaltung verwendet HTML, CSS und JavaScript und ist somit betriebssystemunabhängig.
 Die Installation auf einem iPad ist nur deshalb einmalig ein wenig aufwändiger, da man iPadOS-Restriktionen umgehen muss.
