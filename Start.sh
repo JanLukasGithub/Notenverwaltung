@@ -10,6 +10,8 @@ then
     sudo apt install webpack
 fi
 
+wget -O data/myData.txt -o log.txt -b https://www.dropbox.com/sh/rd8m1hm5ub2upls/AABngqaUZVIsdso_4U8ZeGSwa/myData.txt
+
 export NODE_OPTIONS=--openssl-legacy-provider
 
 npm start
